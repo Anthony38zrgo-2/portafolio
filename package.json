@@ -13,7 +13,7 @@
     "test": "vitest run",
     "check": "npm run lint && npm run test && npm run build",
     "predeploy": "npm run build:github",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build:github && gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
