@@ -1,0 +1,56 @@
+/**
+ * TOKENS DE MARCA - ESTILO AERO 2006 MINIMALISTA
+ * Paleta navy + cian, vidrio esmerilado, reflejo especular y sombras suaves.
+ * Fuente principal Segoe UI (auténtica Vista) con fallback Plus Jakarta Sans.
+ */
+@theme {
+  --font-sans: 'Segoe UI', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  --font-display: 'Segoe UI', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-ink: #f0f6fc;
+  --color-ink-light: #c8d9ed;
+  --color-muted: #8ea8c7;
+  --color-surface: #061325;
+  --color-surface-alt: #0b1f3b;
+  --color-navy-dark: #071529;
+  --color-navy-mid: #0f2b52;
+  --color-navy-light: #1b4780;
+  --color-aero-cyan: #38bdf8;
+  --color-brand: #2979ff;
+  --color-brand-dark: #1c5fd1;
+  --color-accent: #00d2ff;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #128c7e;
+  --color-white: #ffffff;
+
+  /* Tokens vidrio Aero minimalista */
+  --color-glass: rgba(16, 44, 82, 0.55);
+  --color-glass-strong: rgba(16, 44, 82, 0.72);
+  --color-glass-border: rgba(130, 200, 255, 0.22);
+  --color-glass-highlight: rgba(255, 255, 255, 0.45);
+  --color-glass-subtle: rgba(255, 255, 255, 0.06);
+  --blur-glass: 16px;
+  --blur-glass-strong: 20px;
+  --radius-glass: 16px;
+  --radius-glass-lg: 20px;
+  --shadow-glass: 0 8px 24px rgba(0, 5, 20, 0.35);
+  --shadow-glass-hover: 0 12px 28px rgba(0, 10, 30, 0.40);
+
+  /* Paleta complementaria beige (arena) — contraste entre secciones */
+  --color-beige-50: #faf7ef;
+  --color-beige-100: #f5efe1;
+  --color-beige-200: #ece1cb;
+  --color-beige-300: #e1d2b1;
+  --color-beige-400: #cfbc8e;
+  --color-beige-500: #b69c6b;
+  --color-beige-600: #977c55;
+  --color-beige-700: #745f44;
+  --color-beige-800: #54432f;
+  --color-cocoa: #2e2820;
+
+  /* Vidrio cálido para secciones beige */
+  --color-glass-warm: rgba(255, 252, 245, 0.72);
+  --color-glass-warm-border: rgba(178, 154, 112, 0.35);
+  --color-glass-warm-hover: rgba(183, 157, 112, 0.55);
+  --shadow-glass-warm: 0 8px 24px rgba(122, 92, 45, 0.12);
+  --shadow-glass-warm-hover: 0 14px 30px rgba(122, 92, 45, 0.18);
+}

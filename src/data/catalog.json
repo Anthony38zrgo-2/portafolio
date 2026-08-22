@@ -1,0 +1,62 @@
+[
+  {
+    "id": "urbanikawsay",
+    "name": "Urbanikawsay Inmobiliaria",
+    "category": "Inmobiliaria",
+    "badge": "Venta de Lotes",
+    "description": "Venta de lotes y terrenos en Huaral con planos y asesoría por WhatsApp.",
+    "image": "/images/projects/urbanikawsay.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/urbanikawsay/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/urbanikawsay"
+  },
+  {
+    "id": "consultoria-coexistir",
+    "name": "Coexistir Consultorio",
+    "category": "Salud & Citas",
+    "badge": "Servicios",
+    "description": "Consultorio psicológico virtual con especialidades y agendamiento directo.",
+    "image": "/images/projects/consultoria-coexistir.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/consultoria-coexistir/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/consultoria-coexistir"
+  },
+  {
+    "id": "brewster-molinillos",
+    "name": "BREWSTER Perú",
+    "category": "Catálogo de Productos",
+    "badge": "Cafetería",
+    "description": "Catálogo interactivo de molinillos y accesorios con pedidos al instante.",
+    "image": "/images/projects/brewster-molinillos.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/brewster-molinillos/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/brewster-molinillos"
+  },
+  {
+    "id": "importaciones-jym-sayani",
+    "name": "Importaciones J&M Sayani",
+    "category": "Textil Mayorista",
+    "badge": "Insumos",
+    "description": "Catálogo digital de insumos para confección con cotización por mayor.",
+    "image": "/images/projects/importaciones-jym-sayani.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/importaciones-jym-sayani/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/importaciones-jym-sayani"
+  },
+  {
+    "id": "finca-selva-rica",
+    "name": "Finca Selva Rica",
+    "category": "Cacao de Origen",
+    "badge": "Mazamari",
+    "description": "Presentación de marca y productos de cacao fino y café de origen.",
+    "image": "/images/projects/finca-selva-rica.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/finca-selva-rica/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/finca-selva-rica"
+  },
+  {
+    "id": "cafe-delmonte",
+    "name": "Café Delmonte",
+    "category": "Café de Especialidad",
+    "badge": "Gourmet",
+    "description": "Menú interactivo de café peruano con pedidos directos al chat.",
+    "image": "/images/projects/cafe-delmonte.jpg",
+    "demoUrl": "https://anthony38zrgo-2.github.io/cafe-delmonte/",
+    "githubUrl": "https://github.com/Anthony38zrgo-2/cafe-delmonte"
+  }
+]
