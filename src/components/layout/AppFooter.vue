@@ -2,6 +2,14 @@
 /** FOOTER: cierre, datos de contacto, enlaces y derechos de autor. */
 import { MessageCircle, Mail, MapPin, ExternalLink, FileText } from "lucide-vue-next";
 import { siteConfig } from "@/config/site.config";
+
+const resolveAsset = (url) => {
+  if (!url) return "";
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  const base = import.meta.env.BASE_URL || "/";
+  const cleanPath = url.startsWith("/") ? url.slice(1) : url;
+  return `${base}${cleanPath}`;
+};
 </script>
 
 <template>
@@ -69,7 +77,7 @@ import { siteConfig } from "@/config/site.config";
           </li>
           <li v-if="siteConfig.hero.cvAction">
             <a
-              :href="siteConfig.hero.cvAction.href"
+              :href="resolveAsset(siteConfig.hero.cvAction.href)"
               target="_blank"
               rel="noopener noreferrer"
               download

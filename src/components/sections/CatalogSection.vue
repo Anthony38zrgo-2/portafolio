@@ -1,9 +1,17 @@
 <script setup>
 /** CATÁLOGO: Portfolio Aero Glass minimal — grid 3 columnas. */
-import { ExternalLink, Github } from "lucide-vue-next";
+import { ExternalLink } from "lucide-vue-next";
 import catalog from "@/data/catalog.json";
 import { siteConfig } from "@/config/site.config";
 import VisualPlaceholder from "@/components/ui/VisualPlaceholder.vue";
+
+const resolveAsset = (url) => {
+  if (!url) return "";
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  const base = import.meta.env.BASE_URL || "/";
+  const cleanPath = url.startsWith("/") ? url.slice(1) : url;
+  return `${base}${cleanPath}`;
+};
 </script>
 
 <template>
@@ -30,13 +38,13 @@ import VisualPlaceholder from "@/components/ui/VisualPlaceholder.vue";
           <div class="card-visual-wrapper">
             <img
               v-if="item.image"
-              :src="item.image"
+              :src="resolveAsset(item.image)"
               :alt="`Captura de pantalla de ${item.name}`"
               class="card-img"
               width="800"
               height="450"
               loading="lazy"
-            />
+            >
             <VisualPlaceholder
               v-else
               :label="item.name"

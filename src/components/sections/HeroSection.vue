@@ -43,7 +43,7 @@ const serviceIcons = [Layout, ShoppingBag, Rocket, ShieldCheck];
               width="584"
               height="404"
               loading="eager"
-            />
+            >
             <div class="hero-illustration-glow" aria-hidden="true" />
           </div>
         </div>
